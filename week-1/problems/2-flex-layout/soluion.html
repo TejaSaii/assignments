@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container{
+        margin: 0 auto;
+        width: 1200px;
+        height: 1200px;
+      }
+      .content{
+        height: 400px;
+        display: flex;
+        align-items: center;
+      }
+      .item{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .item span{
+        color: white;
+        font-size: 20px;
+      }
+      .item-1{
+        background: red;
+        flex: 2;
+      }
+      .item-2{
+        background: blue;
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="item item-1">
+          <span>item 1</span> 
+        </div>
+        <div class="item item-2">
+          <span>item 2</span> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
