@@ -5,43 +5,41 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: black;
+            background-color: rgb(16, 16, 16);
+            display: grid;
+            place-items: center;
         }
         .container {
             background-color: black;
             width: 1200px;
             margin: 0 auto;
             color: white;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
         }
-
+        h2 {
+            margin: 2rem 0;
+        }
+        p {
+            font-size: 0.8rem;
+            font-weight: 200;
+        }
         .languagePanel {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            padding-inline: 2.5rem
+            padding-inline: 2.5rem;
         }
-
         .languagePanel img {
             height: 40px;
-            width: auto;
         }
-
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            column-gap: 2rem;
-        }
-
         .flex {
             display: flex;
         }
-
         .verticalCenter {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
+            display: grid;
+            place-items: center;
         }
-        
     </style>
 </head>
 <body>
